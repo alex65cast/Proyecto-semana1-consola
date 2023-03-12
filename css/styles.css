@@ -62,8 +62,8 @@ body {
 
 #psp{
 
-    background-color: black;
-    width: 55em;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 76%, rgba(14,13,13,1) 95%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%); width: 55em;
     height: 28em;
 
     margin-top: 1em;
@@ -117,7 +117,8 @@ body {
 
 #flecha1{
 
-    background-color: #373946;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%);
 
     width: 3em;
     height: 3em;
@@ -144,7 +145,8 @@ body {
 #flecha2{
 
 
-    background-color: #373946;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%);
 
     width: 3em;
     height: 3em;
@@ -155,7 +157,8 @@ body {
 
 #flecha3{
 
-    background-color: #373946;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%);
 
     width: 3em;
     height: 3em;
@@ -168,7 +171,8 @@ body {
 
 #flecha4{
 
-    background-color: #373946;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%);
 
     width: 3em;
     height: 3em;
@@ -233,13 +237,13 @@ body {
 
 #textoPower{
 
-    background-color: aqua;
+    /* background-color: aqua; */
 
     width: 5em;
     height: 3em;
 
     margin-left: 49em;
-    margin-top: -5.3em;
+    margin-top: -5.5em;
     
 }
 
@@ -285,13 +289,30 @@ body {
     
 }
 
+p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.letras{
+
+    font-size: 12px;
+    
+}
+.volumen{
+
+    font-size: 15px;
+}
+
 #home{
 
-    background-color: aqua;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%);
     width: 3.5em;
     height: 2em;
 
-    border-radius: 0% 0% 40% 40%;
+    border-radius: 10% 10% 40% 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -302,7 +323,8 @@ body {
 
     
     margin-left: 1em;
-    background-color: yellow;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%); 
     width: 3em;
     height: 2em;
     border-radius: 45%;
@@ -325,7 +347,8 @@ body {
 
 #mas{
 
-    background-color: blue;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%); 
 
     margin-left: 1em;
     margin-right: 1em;
@@ -341,13 +364,14 @@ body {
 
 #select{
 
-    background-color: blue;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%);
 
     margin-left: 2em;
     width: 3.5em;
     height: 2em;
 
-    border-radius: 0% 0% 40% 40%;
+    border-radius: 10% 10% 40% 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -357,12 +381,13 @@ body {
 
 #start{
 
-    background-color: blue;
+    background: rgb(40,39,39);
+    background: linear-gradient(0deg, rgba(40,39,39,1) 27%, rgba(14,13,13,1) 86%, rgba(62,61,61,1) 98%, rgba(114,114,114,1) 100%, rgba(236,236,236,1) 100%); 
 
     margin-left: 2em;
     width: 3.5em;
     height: 2em;
-    border-radius: 0% 0% 40% 40%;
+    border-radius: 10% 10% 40% 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -579,8 +604,6 @@ body {
     border-radius: 50%;
 
     margin-left: 6em;
-
-
 
 
 }
