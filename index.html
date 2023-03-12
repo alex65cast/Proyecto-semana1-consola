@@ -22,7 +22,14 @@
                 <div id="joystick" class="img"><img src="img/relieve.png" style="border-radius: 50%;"/></div>
             </div>
              
-            <div id="pantalla">
+            <div id="pantalla" >
+                <video id="videoJuego" style="display: none;">
+                    
+                
+                    <source src="Sony Playstation Portable (PSP) Boot Animation.mp4" type="video/mp4" />
+                    
+                </video>
+                
                
             </div>
             <div id="botones">
@@ -41,7 +48,7 @@
             <div id="mas"><p class="volumen">+</p></div>
             <div id="pspLetra" class="img"><img src="img/psp.png"/></div>
             <div id="select"><p class="letras">SELECT</p></div>
-            <div id="start"><p class="letras">START</p></div>
+            <div id="start" onclick="mostrarVideo()"><p class="letras">START</p></div>
             
         </div>
         <div id="power">
@@ -73,10 +80,17 @@
 
 <script>
 
-    function mensjae(){
+   function mostrarVideo(){
 
-        alert("Hola que tal");
-    }
+        var video = document.getElementById("videoJuego");
+        video.style.display = "block";
+        video.currentTime = 0;
+        video.play();
+        
+
+   }
+
+
 </script>
 
 </body>
