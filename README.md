@@ -1,5 +1,7 @@
-#PRIMER PROYECTO CON HTML
-##PSP con HTML y CSS
+# PRIMER PROYECTO CON HTML #
+<br/>
+## PSP con HTML y CSS 
+<br/>
 Se ha realizado una videoconsola mediante estos procedimientos, para realizar este proyecto **ha sido fundamental** el uso de los "`div`" como base de toda la consola, ya que toda esta compuesta de "`div`" dentro de "`div`", es decir cajas dentro de cajas.
 
 Para ello es **muy importante** el uso de los "`display:flex`" y todos sus variantes para ajsutar estos "`div`" dentro de otros. 
@@ -7,6 +9,8 @@ Para ello es **muy importante** el uso de los "`display:flex`" y todos sus varia
 La **idea principal** era desarrollar la PSP, la cual, al pulsar un boton apareciera en la pantalla el video de introducción de la consola y su sonido correspondiente.
 
 ![trashmen](img/consola.png)
+
+Si quieres ver como funciona de forma real pincha aquí: https://alex65cast.github.io/Proyecto-semana1-consola/
 
 Para realizar todo esto se han utilizado las siguientes herramientas:
 
